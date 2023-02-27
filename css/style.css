@@ -1,0 +1,98 @@
+#body {
+  background-color: #ffffff;
+}
+
+#phone {
+  width: 930px;
+  margin: 100px auto;
+}
+#phone .phone-icons p {
+  font-weight: 500;
+  font-size: 1.1rem;
+}
+#phone img {
+  padding: 10px;
+  width: 100px;
+  background-color: rgb(211, 25, 25);
+  transition: 0.5s;
+}
+
+.containerTimer {
+  width: 60%;
+  height: 100%;
+  margin: 0 auto;
+  margin-top: 50px;
+}
+
+#timerBody {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 42px;
+  margin: 0;
+}
+#timerBody p {
+  width: 200px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 2.625rem;
+  background-color: rgb(211, 21, 21);
+}
+
+.timerBlock {
+  width: 85px;
+  border-bottom-right-radius: 10px;
+  border-bottom-left-radius: 10px;
+  margin-bottom: 20px;
+  text-align: center;
+}
+.timerBlock .time {
+  background-color: rgb(103, 56, 7);
+  color: white;
+  font-size: 55px;
+}
+.timerBlock .title {
+  font-size: 16px;
+  background-color: rgb(29, 159, 36);
+  color: white;
+}
+
+.buttons button {
+  padding: 10px;
+  color: white;
+  background-color: rgb(226, 10, 10);
+  width: 580px;
+  border: none;
+  transition: 0.3s ease-in-out;
+  cursor: pointer;
+}
+
+#clockBody {
+  background-color: rgb(249, 249, 249);
+  width: 50%;
+}
+
+#clock {
+  color: rgb(16, 3, 3);
+  font-weight: bold;
+  font-size: 50px;
+}
+
+.nav {
+  display: flex;
+  justify-content: center;
+}
+
+input[type=time] {
+  padding: 10px 10px 10px 20px;
+  border-radius: 5px;
+  border: none;
+  font-size: 18px;
+  font-weight: 600;
+}
+
+.active {
+  background-color: #1059b8;
+  color: white;
+}

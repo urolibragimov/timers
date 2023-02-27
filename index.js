@@ -1,0 +1,1 @@
+const navbarLogo = document.querySelector(".nav__logo");
